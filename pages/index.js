@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 export default class extends React.Component {
-  static getInitialProps({ query: { id } }) {
+  static getInitialProps() {
     console.log("getInitialProps index");
     return {};
   }
